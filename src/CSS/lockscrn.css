@@ -1,0 +1,9 @@
+.lockscrn-heading{
+  background-color:rgb(153, 226, 246);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  position: relative;
+  margin-top: 40%;
+}

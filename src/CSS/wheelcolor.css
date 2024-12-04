@@ -1,0 +1,27 @@
+.wheel-color{
+  background-color:  #e3f2fd;
+  height: 100%;
+  
+}
+.theme-li{
+  padding: 1px 1px;
+}
+ul{
+  width: 100%;
+  padding: 0%;
+  list-style: none;
+}
+li{
+  padding: 10px 0px;
+}
+.active{
+  padding-left: 5px;
+  position: relative;
+  background-color: aqua;
+  color: white;
+}
+.active::after{
+  position:absolute;
+  content: ">";
+  right: 2px;
+}

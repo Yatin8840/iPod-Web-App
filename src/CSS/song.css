@@ -1,0 +1,30 @@
+.song {
+  width: 270px;
+  height: 180px;
+  background-color: #e3e3e3;
+  overflow-y: scroll;
+  scroll-behavior: auto;
+}
+
+h2 {
+  margin: 1px;
+}
+ul {
+  width: 100%;
+  padding: 0%;
+  list-style: none;
+}
+li {
+  padding: -5px;
+}
+.active {
+  padding-left: 5px;
+  position: relative;
+  background-color: aqua;
+  color: white;
+}
+.active::after {
+  position: absolute;
+  content: ">";
+  right: 2px;
+}
